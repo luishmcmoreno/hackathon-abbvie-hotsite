@@ -58,23 +58,7 @@ jQuery(document).ready(function() {
     */
     $('form.subscribe').submit(function() {
         var postdata = $('form.subscribe').serialize();
-        $.ajax({
-            type: 'POST',
-            url: 'assets/subscribe.php',
-            data: postdata,
-            dataType: 'json',
-            success: function(json) {
-                if(json.valid == 0) {
-                    $('form.subscribe input').css('border', '1px solid #f16f35');
-                }
-                else {
-                    var form_height = $('form.subscribe').height();
-                    $('form.subscribe input').css('border', '1px solid #fff');
-                    $('form.subscribe').hide();
-                    $('.product-description').append('<p style="height: ' + form_height + 'px">' + json.message + '</p>');
-                }
-            }
-        });
+      
         return false;
     });
 
