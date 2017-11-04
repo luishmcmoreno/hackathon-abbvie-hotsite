@@ -56,8 +56,8 @@
                                 </div>
                                 <div class="span12">
                                     <div class="product-description product-description-right">
-                                        <form action="res/subscribe.php" method="post" class="subscribe text-center">
-                                            <input type="text" name="email" class="email" placeholder="Insira o código aqui">
+                                        <form class="subscribe form-code text-center">
+                                            <input type="text" name="email" class="email input-code" placeholder="Insira o código aqui">
                                             <button type="submit">Buscar prontuário!</button>
                                         </form>
                                     </div>
@@ -72,28 +72,102 @@
         <!-- Content -->
         <div class="container">
 
-            <div class="row">
+            <div class="row pacient-data">
+                <div class="using-this">
+                    <div class="span12">
+                        <p><b>Nome:</b> <span class="pacient-name"></span></p>
+                        <p><b>Código:</b> <span class="pacient-code"></span></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row pacient-data">
+                    <div class="using-this">
+                            <div class="span5">
+                                    <h3>Últimas Consultas</h3>                            
+                                    <div class="consult-item">
+                                        <div class="span4"><b>Constultório</b></div>
+                                        <div class="span4"><b>Nome</b></div>
+                                        <div class="span4"><b>Data</b></div>
+                                    </div>
+
+                                    <div class="consult-item">
+                                        <div class="span4">Cardiologia</div>
+                                        <div class="span4">Selena Almeida</div>
+                                        <div class="span4">13/06/2017</div>
+                                    </div>
+
+                                    <div class="consult-item">
+                                        <div class="span4">Hepatologia</div>
+                                        <div class="span4">Adalberto Freire</div>
+                                        <div class="span4">16/04/2017</div>
+                                    </div>
+
+                                    <div class="consult-item">
+                                        <div class="span4">Clínico Geral</div>
+                                        <div class="span4">Marcos Cézar</div>
+                                        <div class="span4">13/02/2017</div>
+                                    </div>
+                                </div>             
+
+                        <!-- um divider aqui -->
+
+                        
+                        <div class="span7">
+                            <h3>Últimos Exames</h3>                            
+                            <div class="consult-item">
+                                <div class="span4"><b>Laboratório</b></div>
+                                <div class="span4"><b>Exame</b></div>
+                                <div class="span4"><b>Data</b></div>
+                                <div class="span4"><b>Arquivos</b></div>
+                            </div>
+                            <div class="consult-item">
+                                <div class="span4">São Marcos</div>
+                                <div class="span4">Hemograma</div>
+                                <div class="span4">13/02/2016</div>
+                                <div class="span4">
+                                    <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                            <div class="consult-item">
+                                <div class="span4">Hermes Pardini</div>
+                                <div class="span4">Endoscopia</div>
+                                <div class="span4">13/02/2016</div>
+                                <div class="span4">
+                                    <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                            <div class="consult-item">
+                                <div class="span4">Hermes Pardini</div>
+                                <div class="span4">Fezes</div>
+                                <div class="span4">13/02/2016</div>
+                                <div class="span4">
+                                    <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                            <div class="consult-item">
+                                <div class="span4">Hermes Pardini</div>
+                                <div class="span4">Mamografia</div>
+                                <div class="span4">13/02/2016</div>
+                                <div class="span4">
+                                    <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>                        
+                    </div>
+            </div>
+
+            <!-- <div class="row">
                 <div class="span12">
-                    <!-- about us -->
                     <div class="about-us_2" id="about">
                         <h3>About Us</h3>
                         <h5>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h5>
                         <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                     </div>
                 </div>
-            </div> <!-- end row -->
+            </div> -->
 
-            <div class="row">
-                <div class="col-md-12 using-this">
-                    <h3>Dados do Paciente</h3>
-                    <div class="using-this-container">
-                        <div class="span6">
-                            <h4>Últimas Consultas</h4>                            
-                        </div>                        
-                        </div>
-                    </div>
-                </div>
-            </div>
+            
         </div>
 
         </div> <!-- end container -->
@@ -116,6 +190,7 @@
         <script src="assets/js/jflickrfeed.js"></script>
         <script src="assets/js/jquery.countdown.js"></script>
         <script src="assets/js/coming-soon-scripts.js"></script>
+        <script src="custom.js"></script>
         <script></script>
     </body>
 

@@ -6,10 +6,7 @@ jQuery(document).ready(function() {
     */
     $('.product-showcase').backstretch([
       "assets/img/backgrounds/1-.jpg"
-    , "assets/img/backgrounds/1.jpg"
-    , "assets/img/backgrounds/1--.jpg"
     , "assets/img/backgrounds/2.jpg"
-    , "assets/img/backgrounds/5.jpg"
     ], {duration: 3000, fade: 750});
 
     /*
