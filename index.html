@@ -13,10 +13,10 @@
         <!-- CSS -->
         <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=PT+Sans:400,700'>
         <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-        <link rel="stylesheet" href="assets/prettyPhoto/css/prettyPhoto.css">
         <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.css">
         <link rel="stylesheet" href="assets/css/social-icons.css">
-        <link rel="stylesheet" href="assets/css/iphone-style.css">
+        <link rel="stylesheet" href="assets/css/coming-soon-style.css">
+        <link rel="stylesheet" href="custom.css">
 
         <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
         <!--[if lt IE 9]>
@@ -37,38 +37,33 @@
         <!-- Header -->
         <div class="container">
             <div class="header row">
-                <div class="logo span4">
-                    <img src="assets/img/logo_sem_texto.png">
-                    <h2>CPS</h2>
-                </div>
-                <div class="tel-skype span8">
-                    <p><i class="icon-search"></i><input style="margin-left: 10px;" type="text" placeholder="Buscar.."></p>
+                <div class="logo span4 logo-saude">
+                    <img src="assets/img/logo_sem_texto.png" class="img-responsive">
+                    <h4 class="site-title">Corrida pela Saúde</h>
+                </div>                
+                <div class="saiba-mais">
+                    Saiba mais
                 </div>
             </div>
         </div>
 
-        <!-- Product Showcase -->
+        <!-- Coming Soon -->
         <div class="product-showcase">
             <div class="product-showcase-pattern">
                 <div class="container">
                     <div class="row">
                         <div class="span12 product-background">
                             <div class="row">
-                                <div class="span5 product-image">
-                                    <img src="assets/img/iphone.png" alt="">
+                                <div class="span12">
+                                    <h1 class="text-center">Insira o <strong>código de seu paciente</strong></h1>                                   
                                 </div>
-                                <div class="span7 product-title">
-                                    <h1>The <strong>iPhone version</strong> of our app is now ready!</h1>
-                                    <div class="product-description">
-                                        <h3>Flexible & Lightweight</h3>
-                                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p>
-                                        <h3>Cloud Support</h3>
-                                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p>
-                                        <h3>Social Media Integration</h3>
-                                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p>
-                                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                <div class="span12">
+                                    <div class="product-description product-description-right">
+                                        <form action="res/subscribe.php" method="post" class="subscribe text-center">
+                                            <input type="text" name="email" class="email" placeholder="Insira o código aqui">
+                                            <button type="submit">Buscar prontuário!</button>
+                                        </form>
                                     </div>
-                                    <div class="call-to-action"><a href="" class="buy-it-now"><i class="icon-cloud-download"></i> Download it!</a></div>
                                 </div>
                             </div>
                         </div>
@@ -82,74 +77,6 @@
 
             <div class="row">
                 <div class="span12">
-                    <!-- features -->
-                    <div class="features_2">
-                        <h3>Features</h3>
-                        <div class="row">
-                            <div class="span4 single-feature features-left-span">
-                                <div class="feature-icon">
-                                    <i class="icon-cloud"></i>
-                                </div>
-                                <div class="feature-text">
-                                    <h4>Duis Aute Irure</h4>
-                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
-                                </div>
-                            </div>
-                            <div class="span4 single-feature">
-                                <div class="feature-icon">
-                                    <i class="icon-ok"></i>
-                                </div>
-                                <div class="feature-text">
-                                    <h4>Voluptate Velit</h4>
-                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
-                                </div>
-                            </div>
-                            <div class="span4 single-feature">
-                                <div class="feature-icon">
-                                    <i class="icon-twitter"></i>
-                                </div>
-                                <div class="feature-text">
-                                    <h4>Sunt In Culpa</h4>
-                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="span4 single-feature features-left-span single-feature-bottom">
-                                <div class="feature-icon">
-                                    <i class="icon-fire"></i>
-                                </div>
-                                <div class="feature-text">
-                                    <h4>Velit Esse</h4>
-                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
-                                </div>
-                            </div>
-                            <div class="span4 single-feature single-feature-bottom">
-                                <div class="feature-icon">
-                                    <i class="icon-magic"></i>
-                                </div>
-                                <div class="feature-text">
-                                    <h4>Cillum Dolore</h4>
-                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
-                                </div>
-                            </div>
-                            <div class="span4 single-feature single-feature-bottom">
-                                <div class="feature-icon">
-                                    <i class="icon-flag"></i>
-                                </div>
-                                <div class="feature-text">
-                                    <h4>Fugiat Nulla</h4>
-                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> <!-- end row -->
-            
-
-            <div class="row">
-                <div class="span12">
                     <!-- about us -->
                     <div class="about-us_2">
                         <h3>About Us</h3>
@@ -159,10 +86,9 @@
                 </div>
             </div> <!-- end row -->
 
-            <div class="row">
-                <!-- using this -->
+            <!-- <div class="row">
                 <div class="span12 using-this">
-                    <h3>Using This</h3>
+                    <h3>As Seen On</h3>
                     <div class="using-this-container">
                         <a class="using-this-google" href="#"></a>
                         <a class="using-this-pinterest" href="#"></a>
@@ -171,7 +97,7 @@
                         <a class="using-this-pinterest" href="#"></a>
                     </div>
                 </div>
-            </div> <!-- end row -->
+            </div> -->
 
         </div> <!-- end container -->
 
@@ -182,17 +108,13 @@
                         <h3>From Twitter</h3>
                         <div class="show-tweet"></div>
                     </div>
-                    <div class="span4 testimonials">
-                        <h3>Testimonials</h3>
-                        <p>" Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Duis aute irure dolor in reprehenderit. "</p>
-                        <div class="test-author">
-                            <img src="assets/img/testimonials/3.jpg" alt="">
-                            <p><span>Jane Ipsum Doe</span><br>Produkta Inc.</p>
-                        </div>
+                    <div class="span4 flickr-photos">
+                        <h3>Flickr Photos</h3>
+                        <ul class="flickr-feed"></ul>
                     </div>
                     <div class="span4 contact-us">
                         <h3>Contact Us</h3>
-                        <form action="assets/contact.php" method="post">
+                        <form action="res/contact.php" method="post">
                             <input type="text" name="name" class="name" placeholder="Name">
                             <input type="text" name="email" class="email" placeholder="Email">
                             <textarea name="message" placeholder="Message"></textarea>
@@ -229,8 +151,9 @@
         <script src="assets/js/jquery-1.8.2.min.js"></script>
         <script src="assets/js/jquery.backstretch.min.js"></script>
         <script src="assets/js/jquery.tweet.js"></script>
-        <script src="assets/prettyPhoto/js/jquery.prettyPhoto.js"></script>
-        <script src="assets/js/iphone-scripts.js"></script>
+        <script src="assets/js/jflickrfeed.js"></script>
+        <script src="assets/js/jquery.countdown.js"></script>
+        <script src="assets/js/coming-soon-scripts.js"></script>
 
     </body>
 
