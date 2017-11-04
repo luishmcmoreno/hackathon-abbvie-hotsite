@@ -1,8 +1,10 @@
+/* Barra de 'menu' */
 .logo-saude {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
+    min-height: 100px;
     max-height: 100px;
 }
 
@@ -15,8 +17,14 @@
 }
 
 .saiba-mais {
-    float: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    min-height: 100px;
+    max-height: 100px;
 }
+/* Form do código */
 
 .product-background {
     margin-top: 100px;
